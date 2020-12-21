@@ -2,9 +2,14 @@
 }
 
 .footer-text {
-    padding: 10px;
+    padding: 20px;
 }
 
 .bigger {
     font-size: 22px;
+}
+
+.social-icon {
+    color: black;
+    padding: 0 5px;
 }
