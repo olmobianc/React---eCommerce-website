@@ -14,7 +14,6 @@ function Footer() {
                 </p>
                 <p className="footer-text">-</p>
                 <p className="footer-text">bruno@irelandlandscape.com</p>
-                
             </div>
         </div>
     )
