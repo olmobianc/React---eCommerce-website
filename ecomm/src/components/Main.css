@@ -1,4 +1,13 @@
 .main-container {
-    background-color: black;
+    display: flex;
+    background-color: grey;
     color: white;
+    height: 400px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-centered {
+    text-align: center;
 }

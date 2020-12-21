@@ -1,4 +1,10 @@
 .footer-container {
-    background-color: green;
-    color: white;
+}
+
+.footer-text {
+    padding: 10px;
+}
+
+.bigger {
+    font-size: 22px;
 }

@@ -5,7 +5,7 @@ import "./Main.css"
 function Main() {
     return (
         <div className="main-container">
-            CIAO
+            <h4 className="text-centered bigger">Landscape and Outdoor Photography</h4>
         </div>
     )
 }
