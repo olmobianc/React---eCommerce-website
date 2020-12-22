@@ -29,3 +29,8 @@
 .title {
     font-size: 22px;
 }
+
+.title-link {
+    text-decoration: none;
+    color: black;
+}

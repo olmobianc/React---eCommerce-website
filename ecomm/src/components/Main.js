@@ -1,13 +1,15 @@
-import React from "react"
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import "./Main.css"
+import Home from './Home';
+import Shop from './Shop';
 
 function Main() {
     return (
-        <div className="main-container">
-            <h4 className="text-centered bigger">Landscape and Outdoor Photography</h4>
-            <button className="button-visit-shop">Visit Shop</button>
-        </div>
+        <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/shop' component={Shop}></Route>
+        </Switch>
     )
 }
 
