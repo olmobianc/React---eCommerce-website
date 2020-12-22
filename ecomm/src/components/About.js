@@ -1,8 +1,8 @@
 import React from "react"
 
-//import './Contact.css';
+//import './About.css';
 
-function Contact() {
+function About() {
   return (
 
       <div className="App">
@@ -10,4 +10,4 @@ function Contact() {
   )
 }
 
-export default Contact;
+export default About;

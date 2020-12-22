@@ -10,7 +10,7 @@ function Header() {
             <h3 className="title"><Link to="/" className="title-link">Bruno Biancardi Photography</Link></h3>
             <ul className="landmarks-container">
                 <li className="list-item"><Link to="/shop" className="landmark-link">Shop</Link></li>
-                <li className="list-item"><Link to="/contact" className="landmark-link">Contact</Link></li>
+                <li className="list-item"><Link to="/about" className="landmark-link">About</Link></li>
                 <li className="list-item"><a href="" className="landmark-link"><i class="fas fa-shopping-cart"></i></a></li>  
             </ul>
         </div>

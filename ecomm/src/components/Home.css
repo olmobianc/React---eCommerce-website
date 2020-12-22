@@ -23,7 +23,7 @@
     cursor: pointer;
     color: #f9f6f6;
     background-color: #7b3d63;
-    border-color: #7b3d63;
+    border: 2px solid #7b3d63;
 }
 
 .button-visit-shop:hover {
@@ -32,7 +32,7 @@
 
 .font-size-24 {
     font-size: 36px;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.1px;
     font-weight: 500;
 }
 

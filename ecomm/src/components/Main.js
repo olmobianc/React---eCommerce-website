@@ -3,14 +3,14 @@ import { Switch, Route } from 'react-router-dom'
 
 import Home from './Home'
 import Shop from './Shop'
-import Contact from './Contact'
+import About from './About'
 
 function Main() {
     return (
         <Switch> {/* The Switch decides which component to show based on the current URL.*/}
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/shop' component={Shop}></Route>
-            <Route exact path='/contact' component={Contact}></Route>
+            <Route exact path='/about' component={About}></Route>
         </Switch>
     )
 }

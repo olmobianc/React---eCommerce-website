@@ -9,6 +9,7 @@
     position: fixed;
     background: white;
     z-index: 999;
+    text-transform: uppercase;
 }
 
 .landmarks-container {
@@ -33,5 +34,4 @@
 .title-link {
     text-decoration: none;
     color: black;
-    letter-spacing: 1.2px;
 }
