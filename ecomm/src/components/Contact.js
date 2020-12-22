@@ -1,13 +1,13 @@
 import React from "react"
 
-//import './Shop.css';
+//import './Contact.css';
 
-function Shop() {
+function Contact() {
   return (
-      
+
       <div className="App">
       </div>
   )
 }
 
-export default Shop;
+export default Contact;
