@@ -16,14 +16,60 @@
 
 .button-visit-shop {
     position: absolute;
+    font-size: 18px;
     bottom: 40px;
     display: block;
-    padding: 15px;
+    padding: 20px 35px;
     cursor: pointer;
-    font-weight: 600;
-    border: 1px solid black;
+    color: #f9f6f6;
+    background-color: #7b3d63;
+    border-color: #7b3d63;
 }
 
 .button-visit-shop:hover {
     opacity: 80%;
+}
+
+.font-size-24 {
+    font-size: 36px;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 90px;
+    margin-bottom: 40px;
+    padding: 0 160px 40px 160px;
+    margin-top: 80px;
+    grid-template-areas:
+        "left"
+        "right";
+}
+
+.intro-image {
+    grid-area: left;
+}
+
+.intro-text {
+    grid-area: right;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.btn-rd-mr-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button-read-more {
+    font-size: 16px;
+    padding: 20px 35px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.button-read-more:hover {
+    opacity: 70%;
 }

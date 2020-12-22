@@ -1,5 +1,7 @@
 .footer-container {
-    margin-bottom: 40px;
+    background: rgb(37, 35, 35);
+    padding: 40px 0;
+    color: white;
 }
 
 .footer-text {
@@ -11,7 +13,7 @@
 }
 
 .social-icon {
-    color: black;
+    color: white;
     padding: 0 5px;
     font-size: 18px;
 }
