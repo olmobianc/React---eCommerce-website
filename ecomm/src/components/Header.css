@@ -1,13 +1,14 @@
 .navbar-container {
     display: flex;
-    padding: 20px 50px;
+    padding: 20px 160px;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    z-index: 999;
     position: fixed;
+    background: white;
+    z-index: 999;
 }
 
 .landmarks-container {

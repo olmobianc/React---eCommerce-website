@@ -12,7 +12,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/olmo-biancardi-a47144195/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
                     <a href="https://www.linkedin.com/in/olmo-biancardi-a47144195/" target="_blank"><i class="fab fa-facebook social-icon"></i></a>
                 </p>
-                <p className="footer-text">-</p>
+                <p className="footer-text">_</p>
                 <p className="footer-text">bruno@irelandlandscape.com</p>
             </div>
         </div>
