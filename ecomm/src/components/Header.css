@@ -6,10 +6,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    top: 0;
     position: fixed;
     background: white;
     z-index: 999;
-    text-transform: uppercase;
 }
 
 .landmarks-container {
@@ -25,6 +25,7 @@
     text-decoration: none;
     color: black;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .title {

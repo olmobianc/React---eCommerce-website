@@ -1,11 +1,16 @@
 import React from "react"
 
-//import './About.css';
+import './About.css';
 
 function About() {
   return (
-
-      <div className="App">
+      <div className="about-container">
+          <div>
+            hgdshbgsdh
+          </div>
+          <div>
+            dsfjkhkjsfdhnjk
+          </div>
       </div>
   )
 }

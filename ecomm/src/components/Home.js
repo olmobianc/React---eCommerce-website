@@ -2,15 +2,20 @@ import React from "react"
 
 import "./Home.css"
 
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <div>
             <div className="main-container">
-                <h4 className="text-centered font-size-24">Landscape and Outdoor Photography</h4>
-                <button className="button-visit-shop">Visit Shop</button>
+                <div className="btn-vt-sh-container">
+                    <h4 className="text-centered font-size-24">Landscape and Outdoor Photography</h4>
+                    <Link to="/shop" className="link-visit-shop"><button className="button-visit-shop">Visit Shop</button></Link>
+                </div>
             </div>
             <div className="intro-section">
                 <div className="intro-image">
+                    Ciao
                 </div>
                 <div className="intro-text">
                     Bruno Biancardi is an award-winning photographer focused on landscape photography as well as an avid 
@@ -18,7 +23,7 @@ function Home() {
                     driven by his interest in pristine landscapes and remote destinations which has led him to some of the most 
                     incredible places on Earth.
                     <div className="btn-rd-mr-container">
-                        <button className="button-read-more">Read More</button>
+                        <Link to="/about" className="landmark-link"><button className="button-read-more">Read More</button></Link>
                     </div>
                 </div>
             </div>
