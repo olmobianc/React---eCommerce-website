@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom'; //to handle multiple pages
 
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,5 +12,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
-
-reportWebVitals();
