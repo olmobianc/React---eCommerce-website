@@ -3,7 +3,6 @@
     background-color: grey;
     color: white;
     height: 720px;
-    margin-bottom: 40px;
     justify-content: flex-end;
     flex-direction: column;
 }
@@ -37,9 +36,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 90px;
-    margin-bottom: 40px;
     padding: 0 160px 40px 160px;
-    margin-top: 80px;
+    margin: 100px 0 60px 0;
     grid-template-areas:
         "left"
         "right";
