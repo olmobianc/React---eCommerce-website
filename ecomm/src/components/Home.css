@@ -1,6 +1,10 @@
 .main-container {
     display: flex;
-    background-color: grey;
+    background-image: url("../images/athlone\ bridge\ at\ night.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     color: white;
     height: 660px;
     justify-content: flex-end;
@@ -74,4 +78,9 @@
 
 .btn-vt-sh-container {
     text-align: center;
+}
+
+.img-profile-2 {
+    width: 100%;
+    height: 100%;
 }

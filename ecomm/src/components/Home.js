@@ -1,6 +1,7 @@
 import React from "react"
 
 import "./Home.css"
+import profile2 from "../images/profile2.jpg"
 
 import { Link } from "react-router-dom";
 
@@ -15,7 +16,7 @@ function Home() {
             </div>
             <div className="intro-section">
                 <div className="intro-image">
-                    img
+                    <img src={profile2} className="img-profile-2"></img>
                 </div>
                 <div className="intro-text">
                     Bruno Biancardi is an award-winning photographer focused on landscape photography as well as an avid 

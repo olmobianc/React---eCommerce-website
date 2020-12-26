@@ -2,12 +2,14 @@ import React from "react"
 
 import './About.css';
 
+import profile1 from "../images/immagine profilo.jpeg"
+
 function About() {
   return (
       <div className="about-container">
           <div>
               <div className="about-image-container">
-                img
+                <img src={profile1} className="img-profile-1"></img>
               </div>
               <div className="contact-info">
                 <p>bruno@irelandlandscapes.com</p>
