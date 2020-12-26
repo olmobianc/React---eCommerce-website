@@ -15,7 +15,7 @@ function Home() {
             </div>
             <div className="intro-section">
                 <div className="intro-image">
-                    Ciao
+                    img
                 </div>
                 <div className="intro-text">
                     Bruno Biancardi is an award-winning photographer focused on landscape photography as well as an avid 
