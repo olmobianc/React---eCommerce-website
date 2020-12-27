@@ -26,6 +26,7 @@
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
     border-top: 1px solid rgb(160, 155, 155);
+    padding-top: 40px;
     grid-column-gap: 2vw;
-    grid-row-gap: 3vw;
+    grid-row-gap: 8vw;
 }
