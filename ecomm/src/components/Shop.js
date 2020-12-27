@@ -10,14 +10,14 @@ function Shop() {
       <div className="shop-container">
           <ul className="shop-filter-list">
               <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
-              <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Galway</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Wicklow</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Dublin</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Midlands</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Northern Ireland</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Donegal</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Sligo</a></li>
+              <li className="shop-filter-element"><a href="" className="shop-elem-link">Ireland</a></li>
           </ul>
           <div className="shop-grid">
               <PictureCard
