@@ -1,0 +1,11 @@
+.pdp-page {
+    padding: 40px 160px 100px 160px;
+}
+
+.pdp-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+    grid-column-gap: 2vw;
+    grid-row-gap: 8vw;
+}

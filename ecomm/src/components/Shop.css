@@ -30,3 +30,10 @@
     grid-column-gap: 2vw;
     grid-row-gap: 8vw;
 }
+
+.filter-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}

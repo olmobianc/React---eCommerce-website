@@ -10,13 +10,14 @@ class Shop extends React.Component {
           super()
      }
 
-     handleClick(id) {
-          console.log(id)
+     handleClick(id, name) {
+          console.log(id, name)
      }
 
      render() {
           return (
                <div className="shop-container">
+                   <h3 className="filter-title">All pictures/</h3>
                    <ul className="shop-filter-list">
                        <li className="shop-filter-element"><a href="" className="shop-elem-link">Outdoors</a></li>
                        <li className="shop-filter-element"><a href="" className="shop-elem-link">Galway</a></li>

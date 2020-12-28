@@ -1,7 +1,7 @@
 import React from "react"
 import "./Home.css"
 import profile2 from "../images/profile2.jpg"
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 function Home() {
     return (
