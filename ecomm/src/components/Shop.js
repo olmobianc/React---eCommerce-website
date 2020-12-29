@@ -11,7 +11,7 @@ class Shop extends React.Component {
      constructor() {
           super()
           this.state = {
-               productId: 1,
+               productId: "",
                productTitle: "",
                productPrice: "",
                productDescription: "",
@@ -21,15 +21,14 @@ class Shop extends React.Component {
      }
 
      handleClick(id, name, price, description, image) {
-          console.log(id) //the id here is correct
-          this.setState((prevState) => {
-               return {
-                   productId: prevState.productId + 1  
-               }
+          this.setState({
+               productId: id,
+               productTitle: name,
+               productPrice: price,
+               productDescription: description,
+               productImage: image
           })
-          console.log(this.state.productId)  //productId doen not update
      }
-     
      //console.log(id, name, price, description, image)
 
      render() {
