@@ -10,7 +10,6 @@ class Pdp extends React.Component {
           super()
      }
      
-
      render() {
           return (
                <div className="pdp-page">
@@ -19,12 +18,12 @@ class Pdp extends React.Component {
                     </h3>
                    <div className="pdp-container">
                        <div>
-                            img
+                            <img src={profile2} className="pdp-image"></img>
                        </div>
                        <div className="pdp-info-container">
                             <h3 className="pdp-title">{this.props.match.params.productTitle}</h3>
-                            <p>title</p>
-                            <p>description</p>
+                            <p className="pdp-info-paragraph">€ price</p>
+                            <p className="pdp-info-paragraph">description</p>
                             <button className="purchase-button">Purchase</button>
                        </div>
                    </div>

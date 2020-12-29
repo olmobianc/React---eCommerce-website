@@ -11,7 +11,8 @@ class PictureCard extends React.Component {
 
     render() {
         return(
-            <div className="picure-card-container" onClick={() => this.props.handleClick(this.props.id, this.props.title)}>
+            <div className="picure-card-container" onClick={() => 
+                this.props.handleClick(this.props.id, this.props.title, this.props.price, this.props.description, this.props.image)}>
                 <Link to = {`/pdp/${this.props.title}`} className="no-dec">
                     <img src={this.props.image} className="picture-card-image"></img>
                     <h6 className="picture-card-title">{this.props.title}</h6>

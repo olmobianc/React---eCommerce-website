@@ -10,11 +10,27 @@ import './Shop.css'
 class Shop extends React.Component {
      constructor() {
           super()
+          this.state = {
+               productId: 1,
+               productTitle: "",
+               productPrice: "",
+               productDescription: "",
+               productImage: ""
+          }
+          this.handleClick = this.handleClick.bind(this)
      }
 
-     handleClick(id, name) {
-          console.log(id, name)
+     handleClick(id, name, price, description, image) {
+          console.log(id) //the id here is correct
+          this.setState((prevState) => {
+               return {
+                   productId: prevState.productId + 1  
+               }
+          })
+          console.log(this.state.productId)  //productId doen not update
      }
+     
+     //console.log(id, name, price, description, image)
 
      render() {
           return (
