@@ -11,7 +11,7 @@ function Main() {
         <Switch> {/* The Switch decides which component to show based on the current URL.*/}
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/shop' component={Shop}></Route>
-            <Route exact path='/pdp' component={Pdp}></Route>
+            <Route path='/pdp/:productTitle' component={Pdp}></Route>
             <Route exact path='/about' component={About}></Route>
         </Switch>
     )

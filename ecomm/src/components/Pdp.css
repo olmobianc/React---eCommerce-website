@@ -9,3 +9,28 @@
     grid-column-gap: 2vw;
     grid-row-gap: 8vw;
 }
+
+.pdp-title {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.pdp-info-container {
+    text-align: center;
+}
+
+.purchase-button {
+    font-size: 18px;
+    width: 30%;
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #f9f6f6;
+    background-color: #8b1f37;
+    border: 2px solid #751717;
+}
+
+.purchase-button:hover {
+    opacity: 80%;
+}
