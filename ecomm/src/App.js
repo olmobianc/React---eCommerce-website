@@ -5,14 +5,30 @@ import Footer from "./components/Footer"
 
 import './App.css';
 
-function App() {
-  return (
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      data: null
+    }
+  }
+
+  handleCallback = (childData) => {
+    this.setState({
+      data: childData
+    })
+  }
+
+  render() {
+    return (
       <div className="App">
           <Header />
-          <Main />
+          <Main parentCallback = {this.handleCallback}/>
           <Footer />
       </div>
-  );
+    )
+  }
+  
 }
 
-export default App;
+export default App

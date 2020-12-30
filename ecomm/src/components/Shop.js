@@ -21,15 +21,18 @@ class Shop extends React.Component {
      }
 
      handleClick(id, name, price, description, image) {
-          this.setState({
+          console.log(id, name, price, description, image)
+          return this.props.parentCallback("Data from child") //this is wrong ? why ?
+          
+          /* this.setState({
                productId: id,
                productTitle: name,
                productPrice: price,
                productDescription: description,
                productImage: image
-          })
+          }) */
      }
-     //console.log(id, name, price, description, image)
+     
 
      render() {
           return (

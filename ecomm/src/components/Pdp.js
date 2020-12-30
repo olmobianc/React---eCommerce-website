@@ -18,12 +18,12 @@ class Pdp extends React.Component {
                     </h3>
                    <div className="pdp-container">
                        <div>
-                            <img src={profile2} className="pdp-image"></img>
+                            <img src={this.props.image} className="pdp-image"></img>
                        </div>
                        <div className="pdp-info-container">
                             <h3 className="pdp-title">{this.props.match.params.productTitle}</h3>
-                            <p className="pdp-info-paragraph">€ price</p>
-                            <p className="pdp-info-paragraph">description</p>
+                            <p className="pdp-info-paragraph">€ price {this.props.price}</p>
+                            <p className="pdp-info-paragraph">description {this.props.description}</p>
                             <button className="purchase-button">Purchase</button>
                        </div>
                    </div>
