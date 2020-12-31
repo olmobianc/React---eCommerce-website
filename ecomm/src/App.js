@@ -33,8 +33,10 @@ class App extends React.Component {
       <div className="App">
           <Header />
           <Main 
-            parentCallback = {this.handleCallback} 
-            productData = {this.state.productPrice}
+            parentCallback = {this.handleCallback}
+            productDescription = {this.state.productDescription} 
+            productPrice = {this.state.productPrice}
+            productImage = {this.state.image}
           />
           <Footer />
       </div>

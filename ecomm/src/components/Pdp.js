@@ -9,7 +9,9 @@ class Pdp extends React.Component {
      constructor(props) {
           super(props)
           this.state = {
-               price: this.props.productData
+               description: this.props.productDescription,
+               price: this.props.productPrice,
+               image: this.props.productImage
           }
      }
      
@@ -21,12 +23,12 @@ class Pdp extends React.Component {
                     </h3>
                    <div className="pdp-container">
                        <div>
-                            <img src={this.props.image} className="pdp-image"></img>
+                            <img src={this.state.image} className="pdp-image"></img>
                        </div>
                        <div className="pdp-info-container">
                             <h3 className="pdp-title">{this.props.match.params.productTitle}</h3>
                             <p className="pdp-info-paragraph">€ {this.state.price}</p>
-                            <p className="pdp-info-paragraph">{this.props.description}</p>
+                            <p className="pdp-info-paragraph">{this.state.description}</p>
                             <button className="purchase-button">Purchase</button>
                        </div>
                    </div>
