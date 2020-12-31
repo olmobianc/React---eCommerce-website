@@ -9,13 +9,22 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      data: null
+      productId: "",
+      productTitle: "",
+      productPrice: "",
+      productDescription: "",
+      productImage: ""
     }
   }
 
-  handleCallback = (childData) => {
+  handleCallback = (id, name, price, description, image) => {
+    alert(id)
     this.setState({
-      data: childData
+      productId: id,
+      productTitle: name,
+      productPrice: price,
+      productDescription: description,
+      productImage: image
     })
   }
 
@@ -23,7 +32,10 @@ class App extends React.Component {
     return (
       <div className="App">
           <Header />
-          <Main parentCallback = {this.handleCallback}/>
+          <Main 
+            parentCallback = {this.handleCallback} 
+            productData = {this.state.productPrice}
+          />
           <Footer />
       </div>
     )

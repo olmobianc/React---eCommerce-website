@@ -6,8 +6,11 @@ import { Link } from "react-router-dom"
 import './Pdp.css'
 
 class Pdp extends React.Component {
-     constructor() {
-          super()
+     constructor(props) {
+          super(props)
+          this.state = {
+               price: this.props.productData
+          }
      }
      
      render() {
@@ -22,8 +25,8 @@ class Pdp extends React.Component {
                        </div>
                        <div className="pdp-info-container">
                             <h3 className="pdp-title">{this.props.match.params.productTitle}</h3>
-                            <p className="pdp-info-paragraph">€ price {this.props.price}</p>
-                            <p className="pdp-info-paragraph">description {this.props.description}</p>
+                            <p className="pdp-info-paragraph">€ {this.state.price}</p>
+                            <p className="pdp-info-paragraph">{this.props.description}</p>
                             <button className="purchase-button">Purchase</button>
                        </div>
                    </div>

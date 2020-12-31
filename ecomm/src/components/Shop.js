@@ -10,30 +10,14 @@ import './Shop.css'
 class Shop extends React.Component {
      constructor() {
           super()
-          this.state = {
-               productId: "",
-               productTitle: "",
-               productPrice: "",
-               productDescription: "",
-               productImage: ""
-          }
           this.handleClick = this.handleClick.bind(this)
      }
 
      handleClick(id, name, price, description, image) {
           console.log(id, name, price, description, image)
-          return this.props.parentCallback("Data from child") //this is wrong ? why ?
-          
-          /* this.setState({
-               productId: id,
-               productTitle: name,
-               productPrice: price,
-               productDescription: description,
-               productImage: image
-          }) */
+          this.props.parentCallback(id, name, price, description, image)
      }
      
-
      render() {
           return (
                <div className="shop-container">
