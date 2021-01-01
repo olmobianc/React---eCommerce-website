@@ -18,7 +18,6 @@ class App extends React.Component {
   }
 
   handleCallback = (id, name, price, description, image) => {
-    alert(id)
     this.setState({
       productId: id,
       productTitle: name,
@@ -36,7 +35,7 @@ class App extends React.Component {
             parentCallback = {this.handleCallback}
             productDescription = {this.state.productDescription} 
             productPrice = {this.state.productPrice}
-            productImage = {this.state.image}
+            productImage = {this.state.productImage}
           />
           <Footer />
       </div>
