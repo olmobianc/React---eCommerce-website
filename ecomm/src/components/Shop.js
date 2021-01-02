@@ -14,7 +14,6 @@ class Shop extends React.Component {
      }
 
      handleClick(id, name, price, description, image) {
-          console.log(image)
           this.props.parentCallback(id, name, price, description, image)
      }
      
