@@ -38,3 +38,20 @@
     text-decoration: none;
     color: black;
 }
+
+/*TABLET*/
+@media(min-width: 685px) and (max-width: 1168px) {
+    .navbar-container {
+        padding: 20px 50px;
+    }
+}
+
+/*MOBILE*/
+@media(max-width:685px) {
+    .navbar-container {
+        padding: 20px;
+    }
+    .title {
+        font-size: 18px;
+    }
+}

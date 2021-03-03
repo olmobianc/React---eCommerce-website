@@ -85,3 +85,37 @@
     height: 100%;
     box-shadow: 4px 6px 8px 4px rgba(0,0,0,.4), 0 6px 20px 0 rgba(0,0,0,.19);
 }
+
+/*TABLET*/
+@media(min-width: 685px) and (max-width: 1168px) {
+    .intro-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin: 60px 0 60px 0;
+        grid-column-gap: 30px;
+    }
+    .img-profile-2 {
+        width: 100%;
+        height: auto;
+        box-shadow: 4px 6px 8px 4px rgba(0,0,0,.4), 0 6px 20px 0 rgba(0,0,0,.19);
+    }
+    .intro-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+/*MOBILE*/
+@media(max-width:685px) {
+    .intro-section {
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        padding: 20px;
+        margin: 60px 0 60px 0;
+        grid-row-gap: 50px;
+    }
+    .intro-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
